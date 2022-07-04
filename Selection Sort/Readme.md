@@ -19,6 +19,6 @@ Repeat until array is sorted
 
 **Complexity Analysis of Selection Sort:**
 
-**Time Complexity: ** The time complexity of Selection Sort is O(N2) as there are two nested loops.
+**Time Complexity:** The time complexity of Selection Sort is O(N2) as there are two nested loops.
 
 **Auxiliary Space:** O(1) as the only extra memory used is for temporary variable while swapping two values in Array.
