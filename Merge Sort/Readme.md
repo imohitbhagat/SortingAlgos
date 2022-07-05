@@ -43,5 +43,5 @@ step 4: Stop
 
 **Auxiliary Space:** O(n)
 
-**Time Complexity:** O(n logn)
+**Time Complexity:** O(n logn) : Because it divides and conquer
 
