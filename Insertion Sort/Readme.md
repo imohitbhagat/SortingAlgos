@@ -15,3 +15,6 @@ To sort an array of size N in ascending order:
 1. Iterate from arr[1] to arr[N] over the array. 
 1. Compare the current element (key) to its predecessor. 
 1. If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.
+
+**Time Complexity:** O(N^2) 
+**Auxiliary Space:** O(1)
