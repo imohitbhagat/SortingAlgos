@@ -50,3 +50,7 @@ Swap Child (70(1)) with the parent (30(0))
 **How to build the heap?**
 
 Heapify procedure can be applied to a node only if its children nodes are heapified. So the heapification must be performed in the bottom-up order.
+
+**Auxiliary Space:** O(n)
+
+**Time Complexity:** O(n logn)
