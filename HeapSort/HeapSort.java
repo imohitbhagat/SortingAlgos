@@ -5,7 +5,7 @@ public class HeapSort {
         int n = arr.length;
   
         // Build heap (rearrange array)
-        for (int i = n / 2 - 1; i >= 0; i--)
+        for (int i = n / 2 - 1; i >= 0; i--)  // n/2.....n is the leaf nodes which does not requires to be evaluated, that is why loop is starting from n/2.
             heapify(arr, n, i);
   
         // One by one extract an element from heap
