@@ -12,6 +12,6 @@ Insertion sort is adaptive in nature, i.e. it is appropriate for data sets which
 
 To sort an array of size N in ascending order: 
 
-⋅⋅* Iterate from arr[1] to arr[N] over the array. 
+⋅⋅*Iterate from arr[1] to arr[N] over the array. 
 ⋅⋅* Compare the current element (key) to its predecessor. 
 ⋅⋅* If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.
