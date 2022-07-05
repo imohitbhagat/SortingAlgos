@@ -41,8 +41,12 @@ Swap Child (70(1)) with the parent (30(0))
 
 **Heap Sort Algorithm for sorting in increasing order:**
 
-Build a max heap from the input data. 
-At this point, the largest item is stored at the root of the heap. Replace it with the last item of the heap followed by reducing the size of heap by 1. Finally, heapify the root of the tree. 
-Repeat step 2 while the size of the heap is greater than 1.
-How to build the heap? 
+1. Build a max heap from the input data. 
+1. At this point, the largest item is stored at the root of the heap. 
+2. Replace it with the last item of the heap followed by reducing the size of heap by 1. 
+3. Finally, heapify the root of the tree. 
+4. Repeat step 2 while the size of the heap is greater than 1.
+
+**How to build the heap?**
+
 Heapify procedure can be applied to a node only if its children nodes are heapified. So the heapification must be performed in the bottom-up order.
