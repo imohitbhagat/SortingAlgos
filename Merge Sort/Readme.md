@@ -40,3 +40,8 @@ step 3: perform merge function.
         merge(array, left, mid, right)
         
 step 4: Stop
+
+**Auxiliary Space:** O(n)
+
+**Time Complexity:** O(n logn)
+
